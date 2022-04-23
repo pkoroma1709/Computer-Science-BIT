@@ -1,0 +1,147 @@
+body
+{ 
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    font-size: 1rem;
+    background-image: url(asset/Love\ story.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main-container
+{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.container
+{
+    
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+nav
+{
+    top: 0px;
+    position: sticky;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul,li,a
+{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin-left: 5px;
+    color: rgb(28, 169, 211);
+}
+nav a:hover{
+    color: rgb(65, 6, 159);
+    font-size: 1.1rem;
+}
+
+#hero-section
+{
+    max-width: 100%;
+}
+
+#section2
+{
+    max-width: 100%;
+    position: relative;
+}
+#bg-red
+{
+    background-color: red;
+    max-width: 100%;
+    height: 100px;
+}
+#bg-white{
+    background-color: white;
+    text-align: center;
+    max-width: 100vw;
+    padding: 20px;
+    padding-top: 30px;
+}
+.hero-texts
+{
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+#h2-text h2
+{
+    background-color: aquamarine;
+    max-width: fit-content;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+#p-text p
+{
+    background-color: rgb(205, 148, 63);
+    max-width: fit-content;
+    border-radius: 3px;
+    padding: 5px 10px;
+
+    
+}
+button
+{
+    background-color: red;
+    font-size: 1.2rem;
+    border: none;
+    padding: 1px;
+    font-weight: bold;
+    padding: 3px;
+    padding: 4px 15px;
+    border-radius: 3px;
+}
+
+.cards
+{
+    position: relative;
+    top: 80px;
+    max-width: 80%;
+    max-height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.card
+{
+    padding: 10px 15px;
+    font-size: 15px;
+    max-width: fit-content;
+    background-color: aquamarine;
+}
+.card p
+{
+    font-weight: 10px;
+    color: white;
+}
+.card-bg-orange
+{
+    background-color: orange;
+}
+.card-bg-blue
+{
+    background-color: rgb(42, 128, 208);
+}
+.card-bg-yellow
+{
+    background-color: rgb(213, 169, 35);
+}
+
+#section3
+{
+    max-width: 100%;
+    height: 30%;
+    background-image: url(asset/Kids\ back\ to\ school.jpg);
+}
